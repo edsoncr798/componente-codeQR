@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face{
+  font-family: outfit;
+  src: url('./../fonts/outfit/Outfit-Bold.ttf');
+}
+
+/* :root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+} */
+
+@layer base{
+  :root{
+    --white-:0 0% 100%,
+    --light-gray: 212 45% 89%,
+    --grayish-blue: 220 15% 55%,
+    --dark-blue: 218 44% 22%
+  }
+}
+
+body {
+  font-family: outfit, sans-serif;
+  margin: 0;
+  padding: 0;
+}
